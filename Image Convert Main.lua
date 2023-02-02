@@ -5,7 +5,6 @@ local convert = function(url, pngimage)
 	if not pngimage then
 		pngimage = game:HttpGet(url)
 	end
-	print(url, pngimage)
 	local errored = false
 	local imageBytes = {}
 	local pixelsize = 1
